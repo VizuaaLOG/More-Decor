@@ -11,10 +11,21 @@
         "region_collision_shape" : {
             "region": [
                 {
-                    "min" : { "x" : 0, "y" : 0, "z" : 0 },
-                    "max" : { "x" : 0.5, "y" : 0.5, "z" : 0.5 }
+                    "min" : { "x" : -0.4, "y" : 0, "z" : 0 },
+                    "max" : { "x" : 1.4, "y" : 2, "z" : 0.9 }
                 }
             ]
+        },
+        "destination": {
+            "region": [
+                {
+                    "min" : { "x" : 0, "y" : 0, "z" : 0 },
+                    "max" : { "x" : 1, "y" : 2, "z" : 1 }
+                }
+            ],
+            "adjacency_flags": [
+                "front_left", "front", "front_right"
+             ]
         }
     },
 

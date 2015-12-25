@@ -20,16 +20,15 @@
 
         "mob": {
             "model_origin": {
-                "x": 0,
+                "x": -0.9,
                 "y": 0,
-                "z": 0.2
+                "z": 0.35
              },
              "region_origin": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-             },
-            "allow_vertical_adjacent": true
+                "x": 0.5,
+                "y": 0,
+                "z": 0.5
+             }
         }
     }
 }
