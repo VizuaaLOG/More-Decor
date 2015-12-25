@@ -1,0 +1,35 @@
+{
+    "components": {
+        "model_variants": {
+            "default": {
+                "models": [
+                    "file(book_shelf.qb)"
+                ]
+            }
+        },
+    
+        "unit_info": {
+            "description": "A wall-mounted bookshelf to add some literature into your town.",
+            "icon": "file(book_shelf.png)",
+            "display_name": "Wall-Mounted Bookshelf"
+        },
+
+        "stonehearth:material": {
+            "tags": "crafted decoration"
+        },
+
+        "mob": {
+            "model_origin": {
+                "x": 0,
+                "y": 0,
+                "z": 0.2
+             },
+             "region_origin": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+             },
+            "allow_vertical_adjacent": true
+        }
+    }
+}

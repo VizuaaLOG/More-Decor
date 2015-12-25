@@ -1,0 +1,14 @@
+{
+    "info": {
+        "name": "More Decor",
+        "version": 1
+    },
+    
+    "aliases": {
+        "decoration:bookshelf": "file(entities/decoration/book_shelf)"
+    },
+    
+    "mixintos": {
+        "/stonehearth/jobs/carpenter/recipes/recipes.json": "/more_decor/recipes/recipes_carpenter.json"
+    }
+}
