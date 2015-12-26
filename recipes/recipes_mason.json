@@ -1,0 +1,19 @@
+{
+    "craftable_recipes": {
+        "parts": {
+            "ordinal": 4,
+            "name": "Parts",
+            "recipes": {
+                "stone_binding": {
+                    "recipe": "file(mason/stone_binding.json)"
+                },
+                "stone_hook": {
+                    "recipe": "file(mason/stone_hook.json)"
+                },
+                "stone_double_hung_lamp_post": {
+                    "recipe": "file(mason/stone_double_hung_lamp_post.json)"
+                }
+            }
+        }
+    }
+}

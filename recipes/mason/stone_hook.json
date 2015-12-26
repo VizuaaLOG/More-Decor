@@ -1,0 +1,21 @@
+{
+    "type": "recipe",
+    "work_units": 2,
+    "recipe_name": "Stone Hook",
+    "description": "Used to hang objects from poles.",
+    "flavor": "",
+    "portrait": "/more_decor/entities/resources/stone_hook/stone_hook.png",
+    "workshop": "stonehearth:mason:workbench",
+    "level_requirement": 2,
+    "ingredients": [
+        {
+            "material": "stone resource",
+            "count": 1
+        }
+    ],
+    "produces": [
+        {
+            "item": "more_decor:resources:stone_hook"
+        }
+    ]
+}

@@ -5,10 +5,15 @@
     },
     
     "aliases": {
-        "decoration:bookshelf": "file(entities/decoration/book_shelf)"
+        "decoration:bookshelf": "file(entities/decoration/book_shelf)",
+        "decoration:stone_double_hung_lamp_post": "file(entities/decoration/stone_double_hung_lamp_post)",
+        
+        "resources:stone_binding": "file(entities/resources/stone_binding)",
+        "resources:stone_hook": "file(entities/resources/stone_hook)"
     },
     
     "mixintos": {
-        "/stonehearth/jobs/carpenter/recipes/recipes.json": "/more_decor/recipes/recipes_carpenter.json"
+        "/stonehearth/jobs/carpenter/recipes/recipes.json": "/more_decor/recipes/recipes_carpenter.json",
+        "/stonehearth/jobs/mason/recipes/recipes.json": "/more_decor/recipes/recipes_mason.json"
     }
 }

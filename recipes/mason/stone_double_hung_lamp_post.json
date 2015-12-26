@@ -1,0 +1,33 @@
+{
+    "type": "recipe",
+    "work_units": 2,
+    "recipe_name": "Stone Double Hung Lamp Post",
+    "description": "Light up your streets!",
+    "flavor": "Now comes with double the efficiency!",
+    "portrait": "/more_decor/entities/decoration/stone_double_hung_lamp_post/stone_double_hung_lamp_post.png",
+    "workshop": "stonehearth:mason:workbench",
+    "level_requirement": 3,
+    "ingredients": [
+        {
+            "material": "stone resource",
+            "count": 2
+        },
+        {
+            "uri": "more_decor:resources:stone_binding",
+            "count": 2
+        },
+        {
+            "uri": "more_decor:resources:stone_hook",
+            "count": 2
+        },
+        {
+            "material": "wood resource",
+            "count": 2
+        }
+    ],
+    "produces": [
+        {
+            "item": "more_decor:decoration:stone_double_hung_lamp_post"
+        }
+    ]
+}

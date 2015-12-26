@@ -1,0 +1,21 @@
+{
+    "type": "recipe",
+    "work_units": 2,
+    "recipe_name": "Stone Binding",
+    "description": "Used to bind multiple pieces of wooden poles together.",
+    "flavor": "",
+    "portrait": "/more_decor/entities/resources/stone_binding/stone_binding.png",
+    "workshop": "stonehearth:mason:workbench",
+    "level_requirement": 2,
+    "ingredients": [
+        {
+            "material": "stone resource",
+            "count": 1
+        }
+    ],
+    "produces": [
+        {
+            "item": "more_decor:resources:stone_binding"
+        }
+    ]
+}

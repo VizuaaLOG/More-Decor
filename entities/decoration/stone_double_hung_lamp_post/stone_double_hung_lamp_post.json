@@ -1,0 +1,44 @@
+{
+    "type": "entity",
+    "mixins": "file(stone_double_hung_lamp_post_ghost.json)",
+
+    "components": {
+        "stonehearth:entity_forms": {
+            "iconic_form": "file(stone_double_hung_lamp_post_iconic.json)",
+            "ghost_form": "file(stone_double_hung_lamp_post_ghost.json)",
+            "placeable_on_ground": true
+        },
+        "region_collision_shape" : {
+            "region": [
+                {
+                    "min" : { "x" : -0.4, "y" : 0, "z" : 0 },
+                    "max" : { "x" : 1.4, "y" : 2, "z" : 0.9 }
+                }
+            ]
+        },
+        "destination": {
+            "region": [
+                {
+                    "min" : { "x" : 0, "y" : 0, "z" : 0 },
+                    "max" : { "x" : 1, "y" : 2, "z" : 1 }
+                }
+            ],
+            "adjacency_flags": [
+                "front_left", "front", "front_right"
+             ]
+        }
+    },
+
+    "entity_data": {
+        "stonehearth:net_worth": {
+            "value_in_gold": 35,
+            "rarity": "common",
+            "shop_info": {
+                "buyable": true,
+                "sellable": true,
+                "shopkeeper_level": 1,
+                "shopkeeper_type": "caravan"
+            }
+        }
+    }
+}

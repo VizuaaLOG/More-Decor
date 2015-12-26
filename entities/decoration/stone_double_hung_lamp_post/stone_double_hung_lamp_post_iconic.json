@@ -1,0 +1,22 @@
+{
+    "mixins": "stonehearth:mixins:item_properties",
+    "type": "entity",
+    
+    "components": {
+        "item": {
+            "category": "decoration"
+        },
+        
+        "model_variants": {
+            "default": {
+                "models": [
+                    "file(stone_double_hung_lamp_post.qb)"
+                ]
+            }
+        },
+        
+        "mob": {
+            "model_origin" : { "x": -0.5, "y": 0, "z": 0.5 }
+        }
+    }
+}
