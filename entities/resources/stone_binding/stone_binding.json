@@ -18,9 +18,9 @@
          }
       },
       "unit_info": {
-         "description": "This is used to bind wood together from multiple directions.",
+         "description": "i18n(more-decor:entities.resources.stone_binding.stone_binding.description)",
          "icon": "file(stone_binding.png)",
-         "display_name": "Stone Binding"
+         "display_name": "i18n(more-decor:entities.resources.stone_binding.stone_binding.description)"
       }
    },
    "entity_data": {
