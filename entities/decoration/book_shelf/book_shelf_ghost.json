@@ -9,9 +9,9 @@
         },
     
         "unit_info": {
-            "description": "A wall-mounted bookshelf to add some literature into your town.",
+            "description": "i18n(more-decor:entities.decoration.book_shelf.book_shelf_ghost.description)",
             "icon": "file(book_shelf.png)",
-            "display_name": "Wall-Mounted Bookshelf"
+            "display_name": "i18n(more-decor:entities.decoration.book_shelf.book_shelf_ghost.display_name)"
         },
 
         "stonehearth:material": {
